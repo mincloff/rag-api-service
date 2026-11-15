@@ -1,0 +1,34 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Environment files
+.env
+.env.local
+*.env
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# Vector store index
+faiss_index/
+*.index
+*.pkl
+
+# Uploads and temporary files
+tmp/
+temp/
+*.pdf
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
